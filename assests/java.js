@@ -20,7 +20,7 @@ $("#submit").on("click", function() {
 
           // Setting the catImage src attribute to imageUrl
           gifImage.attr("src", imageUrl);
-          gifImage.attr("alt", "cat image");
+          gifImage.attr("alt", "giphy");
 
           // Prepending the catImage to the images div
           $("#images").prepend(gifImage);
