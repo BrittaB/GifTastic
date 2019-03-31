@@ -1,12 +1,9 @@
-var animal = 'cat'; // Temporary variable to see how this works.
-var queryURL = "https://api.giphy.com/v1/gifs/search?q="+animal+"&api_key=RYD0xnN1DY9rH29nIj8R8FcMC53D6Pvb&tag=&rating=PG";
-
-//var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=RYD0xnN1DY9rH29nIj8R8FcMC53D6Pvb&tag=&rating=PG";
-
 
 //submit button
 $("#submit").on("click", function() {
 //preform ajax get function
+var animal = $('gifInput').val();
+var queryURL = "https://api.giphy.com/v1/gifs/search?q="+animal+"&api_key=RYD0xnN1DY9rH29nIj8R8FcMC53D6Pvb&tag=&rating=PG";
       // Perfoming an AJAX GET request to our queryURL
       $.ajax({
         url: queryURL,
