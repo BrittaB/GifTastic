@@ -18,11 +18,11 @@ $("#submit").on("click", function() {
           // Creating and storing an image tag
           var gifImage = $("<img>");
 
-          // Setting the catImage src attribute to imageUrl
+          // Setting src attribute to imageUrl
           gifImage.attr("src", imageUrl);
           gifImage.attr("alt", "giphy");
 
-          // Prepending the catImage to the images div
+          // Prepending to the images div
           $("#images").prepend(gifImage);
         });
     });
