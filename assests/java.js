@@ -1,4 +1,7 @@
-var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=RYD0xnN1DY9rH29nIj8R8FcMC53D6Pvb&tag=&rating=PG";
+var animal = 'cat'; // Temporary variable to see how this works.
+var queryURL = "https://api.giphy.com/v1/gifs/search?q="+animal+"&api_key=RYD0xnN1DY9rH29nIj8R8FcMC53D6Pvb&tag=&rating=PG";
+
+//var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=RYD0xnN1DY9rH29nIj8R8FcMC53D6Pvb&tag=&rating=PG";
 
 
 //submit button
